@@ -16,3 +16,11 @@ True, False
 ["Csaba", "Kriszta", "Tamás", "Aladár"]
 [1, 2, 3, 4, 5, 6]
 ["Csaba", 12, 3.12, [1, 2, 3]]
+
+
+# dictionary
+{
+    "06201112233": { "name" : "Robert", "address": "Budapest", "email": "robert@gmail.com"},
+    "06202223344": { "name" : "Csaba", "address": "Pécs", "email": "csaba@gmail.com"},
+    "06203334455": { "name" : "Kriszta", "address": "Eger", "email": "kriszta@gmail.com"}
+}
