@@ -11,3 +11,8 @@ True, False
 
 # float
 3.14, -24.567
+
+# list
+["Csaba", "Kriszta", "Tamás", "Aladár"]
+[1, 2, 3, 4, 5, 6]
+["Csaba", 12, 3.12, [1, 2, 3]]
