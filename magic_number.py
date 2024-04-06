@@ -1,8 +1,11 @@
-magic_number = 6
+import random
 
+magic_number = random.randint(1, 10)
+
+# cast a string to an int
 player_number = input("Guess my number:")
 
-if magic_number == player_number:
+if str(magic_number) == player_number:
     print(f"You win! {magic_number} was my number :)")
 else:
-    print("You lost the game :(")
+    print(f"You lost the game :( My number was {magic_number}")
