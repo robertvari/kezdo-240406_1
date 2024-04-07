@@ -36,3 +36,5 @@ for i in photo_files:
     photo_data[file_name] = {"file_size": file_size, "pixel_size": pixel_size}
 
 # todo write out data in json format
+with open("photo_data.json", "w") as f:
+    json.dump(photo_data, f)
