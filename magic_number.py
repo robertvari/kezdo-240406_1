@@ -1,5 +1,17 @@
 import random
 
+# todo Game intro
+# todo Generate a random number
+# todo Get player number
+
+
+
+
+
+
+
+
+
 magic_number = random.randint(1, 10)
 
 # cast a string to an int
